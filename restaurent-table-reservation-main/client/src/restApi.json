@@ -1,0 +1,177 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./quality_food.svg",
+                "title": "QUALITY FOOD",
+                "description": "Serving delicious, fresh, and high-quality food made with the finest ingredients."
+            },
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "SUPER TASTE",
+                "description": "Experience the ultimate burst of flavor with our mouthwatering dishes crafted for a super taste every time!."
+            },
+            {
+                "id": 3,
+                "image": "./fast_delivery.svg",
+                "title": "FAST DELIVERY",
+                "description": "Enjoy lightning-fast delivery that brings your favorite meals to your doorstep in no time!."
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dinner1.jpeg",
+                "title": "ROASTED LAMB RUMP",
+                "category": "Dinner"
+            },
+            {
+                "id": 2,
+                "image": "./dinner2.png",
+                "title": "CITRUS CURED SALMON",
+                "category": "Dinner"
+            },
+            {
+                "id": 3,
+                "image": "./breakfast1.png",
+                "title": "PAN SEARED SEA BASS",
+                "category": "Breakfast"
+            },
+            {
+                "id": 4,
+                "image": "./dinner3.png",
+                "title": "STUFFED STRAWBERRY",
+                "category": "Dinner"
+            },
+            {
+                "id": 5,
+                "image": "./lunch1.png",
+                "title": "BEEF BURGER MEAL",
+                "category": "Lunch"
+            },
+            {
+                "id": 6,
+                "image": "./dinner4.png",
+                "title": "MUSSELS SOUP",
+                "category": "Dinner"
+            },
+            {
+                "id": 7,
+                "image": "./dinner5.png",
+                "title": "ITALIAN SPAGHETTI",
+                "category": "Dinner"
+            },
+            {
+                "id": 8,
+                "image": "./dinner6.png",
+                "title": "GRILLED FISH",
+                "category": "Dinner"
+            }
+        ],
+                    "team": [
+                      {
+                        "id": 1,
+                        "name": "Jonathan Tyler",
+                        "designation": "Founder & Head Chef",
+                        "image": "./team_member_1.png",
+                        "description": "Jonathan has 20+ years of experience in fine dining and is passionate about culinary artistry."
+                      },
+                      {
+                        "id": 2,
+                        "name": "Wade Warren",
+                        "designation": "Sous Chef",
+                        "image": "./team_member_2.png",
+                        "description": "Wade specializes in modern fusion cuisine, bringing creativity to every dish."
+                      },
+                      {
+                        "id": 3,
+                        "name": "Jhon Doe",
+                        "designation": "Fast Food Chef",
+                        "image": "./team_member_3.png",
+                        "description": "Jhon is an expert in quick, delicious fast food with unique flavors."
+                      },
+                      {
+                        "id": 4,
+                        "name": "Alex Coal",
+                        "designation": "Senior Chef",
+                        "image": "./team_member_4.png",
+                        "description": "Alex brings years of experience in classic and contemporary cooking."
+                      }
+                    ],
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "./review1.png",
+                "description": "Jane Cooper is a dedicated and friendly team member working at our restaurant, known for her excellent service and passion for hospitality.",
+                "rating": 4,
+                "userName": "Jane Cooper"
+            },
+            {
+                "id": 2,
+                "image": "./review2.png",
+                "description": "Esther Howard is a passionate team member dedicated to great service and a warm dining experience.",
+                "rating": 4.5,
+                "userName": "Esther Howard"
+            },
+            {
+                "id": 3,
+                "image": "./review3.png",
+                "description": "Guy Hawkins is a hardworking and reliable team member who ensures every guest enjoys exceptional service and a smooth dining experience.",
+                "userName": "Guy Hawkins"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "14",
+                "title": "Restaurants"
+            },
+            {
+                "id": 2,
+                "number": "20",
+                "title": "Chef In Kitchen"
+            },
+            {
+                "id": 3,
+                "number": "08",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "200",
+                "title": "Food Dishes"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "HOME",
+                "link": "heroSection"
+            },
+            {
+                "id": 2,
+                "title": "ABOUT US",
+                "link": "about"
+            },
+            {
+                "id": 3,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 4,
+                "title": "TEAM",
+                "link": "team"
+            },
+            {
+                "id": 5,
+                "title": "RESERVATION",
+                "link": "reservation"
+            }
+        ]
+    
+    } 
+    ]
+}

@@ -1,0 +1,156 @@
+/* Layout structure */
+.admin-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #fff5eb, #fffaf4);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background-color: #e26a00;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar li:hover {
+  background-color: #b95000;
+}
+
+.sidebar li svg {
+  margin-right: 12px;
+  font-size: 24px;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 60px;
+  overflow-y: auto;
+}
+
+.main-content header h1 {
+  font-size: 42px;
+  color: #c1440e;
+  margin-bottom: 12px;
+}
+
+.main-content header p {
+  font-size: 22px;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+/* Dashboard cards */
+.dashboard-cards {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: white;
+  flex: 1 1 250px;
+  min-width: 260px;
+  max-width: 350px;
+  padding: 40px 30px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 48px;
+  color: #e26a00;
+  margin-bottom: 18px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Reservation Table */
+.reservation-list {
+  margin-top: 30px;
+}
+
+.reservation-list h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #e26a00;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 20px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.styled-table th, .styled-table td {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.styled-table th {
+  background-color: #e26a00;
+  color: white;
+  font-size: 22px;
+}
+
+.styled-table tr:hover {
+  background-color: #fdf2e9;
+}
+
+.error-message {
+  color: red;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.chart-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
